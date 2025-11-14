@@ -1,0 +1,12 @@
+{
+  "name": "karobarapiassignment",
+  "version": "1.0.0",
+  "description": "This repository contains automated tests for the PetStore Swagger API, which is publicly available for testing purposes. The API can be accessed at [PetStore Swagger](https://petstore.swagger.io/).\r These tests verify that the API functions correctly and meets its defined requirements.",
+  "main": "index.js",
+  "scripts": {
+    "run-api-tests": "newman run Testcases/PetStore.json -r cli,htmlextra --reporter-htmlextra-export reports/newman-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
