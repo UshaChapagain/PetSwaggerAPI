@@ -24,7 +24,7 @@ These instructions will guide you through setting up and running the API tests o
 - npm 
 - Newman (Postman CLI tool)
 
-Setup Instructions:
+### Setup Instructions:
 
 1. Clone the repository:
 ```
@@ -48,6 +48,8 @@ npm run run-api-tests
 CLI output shows test results in the terminal.
 
 The detailed test report is available at reports/newman-report.html. Open this file in a web browser to inspect the results.
+
+### Note: The .json file can simply be downloaded and imported into postman for easy access to detailed and granular request and response data.
 
 
 
