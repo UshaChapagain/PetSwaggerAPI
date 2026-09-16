@@ -1,13 +1,13 @@
-# Karobar API Assignment - PET SWagger
+# API Assignment - PET SWagger
 This repository contains automated tests for the PetStore Swagger API, which is publicly available for testing purposes. The API can be accessed at [PetStore Swagger](https://petstore.swagger.io/).
 These tests verify that the API functions correctly and meets its defined requirements.
 
 ## **Project Structure**
 
 ```
-KarobarAPIassignment
+APIassignment
 │
-├─ KarobarAPIassignment/
+├─ APIassignment/
 │ └─ Testcases
 ├─ reports/ # Newman HTML reports (generated automatically)
 ├─ package.json # npm configuration & scripts
@@ -28,8 +28,8 @@ These instructions will guide you through setting up and running the API tests o
 
 1. Clone the repository:
 ```
-git clone https://github.com/UshaChapagain/KarobarAssignment.git
-cd karobarAPIassignment
+git clone https://github.com/UshaChapagain/Assignment.git
+cd APIassignment
 ```
 
 
